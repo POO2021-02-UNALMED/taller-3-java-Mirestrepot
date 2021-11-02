@@ -10,18 +10,18 @@ public class Control {
 		tv.turnOff();
 	}
 	
-	public static canalUp() {
+	public void canalUp() {
 		tv.canalUp();
 	}
 	public void canalDown() {
-		tv.canalDown()
+		tv.canalDown();
 	}
-	
+	 
 	public void volumenUp() {
-		tv.volumenUp()
+		tv.volumenUp();
 	}
 	public void volumenDown() {
-		tv.volumenDown()
+		tv.volumenDown();
 	}
 	
 	public void setCanal(int canal) {
